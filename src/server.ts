@@ -17,8 +17,6 @@ export async function connectDB () {
         console.log( colors.red.bold('Error connecting to the database'));
     }
 }
-
-
 connectDB()
 
 // Instancia de Express
